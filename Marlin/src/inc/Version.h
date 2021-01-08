@@ -82,14 +82,14 @@
  * providing the source code to your customers.)
  */
 #ifndef SOURCE_CODE_URL
-  #define SOURCE_CODE_URL "https://github.com/Sergey1560/Marlin_FB4S"
+  #define SOURCE_CODE_URL "https://github.com/ago-cs/Marlin_FB5"
 #endif
 
 /**
  * Default generic printer UUID.
  */
 #ifndef DEFAULT_MACHINE_UUID
-  #define DEFAULT_MACHINE_UUID "cede2a2f-41a2-4748-9b12-c55c62f367ff"
+  #define DEFAULT_MACHINE_UUID "6229899c-b029-47f5-8586-fe8e0a820900"
 #endif
 
   /**
@@ -98,7 +98,7 @@
    */
 #ifndef WEBSITE_URL
   //#define WEBSITE_URL "https://marlinfw.org"
-  #define WEBSITE_URL "https://github.com/Sergey1560/Marlin_FB4S"
+  #define WEBSITE_URL "https://github.com/ago-cs/Marlin_FB5"
 #endif
 
 /**
