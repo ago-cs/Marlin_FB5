@@ -193,3 +193,6 @@ ozone.jdebug.user
 
 # Windows users need this to prevent adding build tree to git
 buildroot/*
+
+# WIFI Settings
+mks_wifi_settings.h
