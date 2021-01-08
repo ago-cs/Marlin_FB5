@@ -784,8 +784,8 @@
  *   M204 T    Travel Acceleration
  */
 // @efim-a-efim - decreased E0 acceleration to make it less noisy (yes, even with TMC2208 drivers)
-#define DEFAULT_ACCELERATION          1500    // X, Y, Z and E acceleration for printing moves
-#define DEFAULT_RETRACT_ACCELERATION  2000    // E acceleration for retracts
+#define DEFAULT_ACCELERATION           800    // X, Y, Z and E acceleration for printing moves
+#define DEFAULT_RETRACT_ACCELERATION  1000    // E acceleration for retracts
 #define DEFAULT_TRAVEL_ACCELERATION   1000    // X, Y, Z acceleration for travel (non printing) moves
 
 /**
@@ -798,8 +798,8 @@
  */
 #define CLASSIC_JERK
 #if ENABLED(CLASSIC_JERK)
-  #define DEFAULT_XJERK 10.0
-  #define DEFAULT_YJERK 10.0
+  #define DEFAULT_XJERK  7.0
+  #define DEFAULT_YJERK  7.0
   #define DEFAULT_ZJERK  0.5
 
   //#define TRAVEL_EXTRA_XYJERK 0.0     // Additional jerk allowance for all travel moves
